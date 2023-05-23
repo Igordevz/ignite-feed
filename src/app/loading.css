@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background: #0A0A0A;
+}
+.container img{
+    animation: animator 2.5s infinite;
+}
+@keyframes animator{
+
+    0%{
+        transform: rotate(180deg);
+        transform: rotateX(180deg);
+    }
+    100%{
+        transform: rotate(0deg);
+        transform: rotateX(0deg);
+    }
+
+}
