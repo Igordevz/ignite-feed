@@ -7,6 +7,7 @@ export default async function LoginPage(){
     await new Promise((resolve) => setTimeout(resolve, 5000))
 
     return(
+
         <Container>
              <ModalLogin>
                 <div className="title">
@@ -19,7 +20,6 @@ export default async function LoginPage(){
                     <input type="email" placeholder="Digite seu e-mail" />
                     <span>Sua senha</span>
                     <input type="Password" placeholder="********"/>
-                    <p>lembrar de mim</p>
                     <button >Entrar</button>
                     <div className="links">
                         <a href="#">Esqueceu sua senha?</a>

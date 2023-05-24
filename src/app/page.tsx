@@ -1,10 +1,22 @@
-import Image from 'next/image'
-import styles from './page.module.css'
 
-export default function Home() {
+import { Header, Main } from "@/components/feed/feed";
+import NavLogo from "../assets/App name.png"
+import Image from "next/image";
+import Message from "@/components/feed/messages/message";
+import Profile from "@/components/feed/profile/profile";
+
+export default async function Feed() {
+  await new Promise((loading) => setTimeout(loading, 2000))
+  
   return (
     <>
-      <h1>ola</h1>
+      <Header>
+          <Image src={NavLogo} alt="logo" />
+      </Header>
+      <Main>
+        <Profile/>
+        <Message/>
+      </Main>
     </>
   )
 }

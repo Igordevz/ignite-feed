@@ -56,7 +56,7 @@ export const ModalLogin = styled.div`
         background: #202024;
         outline: none;
         border: none;
-        padding-left:40px ;
+        padding-left:20px;
         padding-top: 13px;
         padding-bottom: 13px;
         padding-right: 90px;
