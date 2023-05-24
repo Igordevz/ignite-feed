@@ -2,16 +2,15 @@ import Image from "next/image";
 import logo from "../../assets/react-logo.png"
 import { Container, ModalLogin } from "./style";
 
-export default async function LoginPage(){
+export default async function LoginPage() {
 
-    await new Promise((resolve) => setTimeout(resolve, 5000))
+    await new Promise((resolve) => setTimeout(resolve, 2000))
 
-    return(
-
+    return (
         <Container>
-             <ModalLogin>
+            <ModalLogin>
                 <div className="title">
-                  <Image src={logo} alt="" width={70}/>
+                    <Image src={logo} alt="" width={70} />
                     <h1>Ignite Lab</h1>
                     <p>Faça login e comece a usar!</p>
                 </div>
@@ -19,16 +18,16 @@ export default async function LoginPage(){
                     <span>Endereço de e-mail</span>
                     <input type="email" placeholder="Digite seu e-mail" />
                     <span>Sua senha</span>
-                    <input type="Password" placeholder="********"/>
+                    <input type="Password" placeholder="********" />
                     <button >Entrar</button>
                     <div className="links">
                         <a href="#">Esqueceu sua senha?</a>
                         <span>
-                         Não possui conta? <a href="">Crie uma agora!</a>
+                            Não possui conta? <a href="">Crie uma agora!</a>
                         </span>
                     </div>
                 </form>
-             </ModalLogin>
+            </ModalLogin>
         </Container>
     );
 
