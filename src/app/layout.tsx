@@ -8,7 +8,6 @@ export const metadata = {
   title: 'Feed - Home',
   description: 'Feed Ignite',
 }
-
 export default function RootLayout({
   children,
 }: {
