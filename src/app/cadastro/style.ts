@@ -10,6 +10,7 @@ export const Container = styled.div`
     align-items: center;
     justify-content: center;
 
+ 
 `
 export const ModalLogin = styled.div`
     position: relative;
@@ -74,7 +75,6 @@ export const ModalLogin = styled.div`
         border-radius: 4px;
         cursor: pointer;
         transition: 1s;
-
     }
     form button:hover{
         border-radius: 90px;
@@ -92,10 +92,10 @@ export const ModalLogin = styled.div`
         font-size: 12px;
         color: gray;
     }
-    
     @media (max-width: 497px){
         width: 100%;
         height: 100vh;
         border-radius: 0;
+
     }
 `
