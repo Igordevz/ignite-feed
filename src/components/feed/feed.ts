@@ -7,13 +7,14 @@ export const Header = styled.div`
     width: 100%;
     display: flex;
     align-items: center;
+    position: absolute;
     justify-content: center;
 `
 
 export const Main = styled.div`
     background: #121214;
     gap: 40px;
-    height: 85vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;

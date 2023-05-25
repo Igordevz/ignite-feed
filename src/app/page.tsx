@@ -15,7 +15,7 @@ export default async function Feed() {
       </Header>
       <Main>
         <Profile/>
-        <Message/>
+         <Message/>
       </Main>
     </>
   )
